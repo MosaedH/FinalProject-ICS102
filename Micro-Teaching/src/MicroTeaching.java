@@ -7,10 +7,10 @@ public class MicroTeaching {
 		Scanner scanner = new Scanner(System.in);
 
 		
-		int size = 29; //29 - 44 - 50
+		int size1 = 29; //29 - 44 - 50
 	    	    
 	    // switch statement
-	    switch (size) {
+	    switch (size1) {
 
 	      case 29: System.out.println("Small");
 	      	break;
