@@ -89,13 +89,13 @@ public class carParkingSystem {
 			if (parkNum == 1) {
 				System.out.println("-------------------------\n"+"These are the times are available in FIRST Park to Book a Car Park:");
 				System.out.println("How long will the car be in parking\n");
-				System.out.println("Enter the hour that will be reserved for your car\n");
+				System.out.println("Enter the hour that will be reserved for your car");
 				for (int i = 0; timesF.size() > i; i++) {
 					System.out.print(timesF.get(i)+", ");
 				}
 			}else if (parkNum ==2){
 				System.out.println("-------------------------\n"+"These are the times are available in SECOND Park to Book a Car Park:");
-				System.out.println("How long will the car be in parking\n");
+				System.out.println("How long will the car be in parking");
 				System.out.println("Enter the hour that will be reserved for your car\n");
 				for (int i = 0; timesS.size() > i; i++) {
 					System.out.print(timesS.get(i)+", ");
@@ -103,7 +103,7 @@ public class carParkingSystem {
 			}else if (parkNum ==3){
 				System.out.println("-------------------------\n"+"These are the times are available in THIRD Park to Book a Car Park:");
 				System.out.println("How long will the car be in parking\n");
-				System.out.println("Enter the hour that will be reserved for your car\n");
+				System.out.println("Enter the hour that will be reserved for your car");
 				for (int i = 0; timesT.size() > i; i++) {
 					System.out.print(timesT.get(i)+", ");
 					
