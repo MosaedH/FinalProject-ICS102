@@ -68,11 +68,12 @@ public class carParkingSystem {
 					System.out.println("Name: Mosaed Saud Alhmwan");
 					System.out.println("Student ID: 202007161");
 					System.out.println("Email: Mosaed.Alhmwan@gmail.com");
-					System.out.println("For More Informations Check Mysite: https://Mosaed.me \n\n-------------------------\n");
+					System.out.println("For More Informations Check Mysite: https://Mosaed.me");
+					System.out.println("Github: MosaedH \n\n-------------------------\n");
 					// End ----- About me
 				}else {
 					System.out.println("Please enter a valid input\n-------------------------");
-					i++;				
+					i++;
 				}
 			}
 		
