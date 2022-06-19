@@ -117,16 +117,22 @@ public class carParkingSystem {
 		
 			// Start ----- Remove a time from ArrayList and add the removed time in another list
 			bookTime = scanner.next();
-			if (parkNum == 1) {
-				timesF.remove(bookTime);
-				timesThatRemoved.add(bookTime);
-			}else if (parkNum == 2) {
-				timesS.remove(bookTime);
-				timesThatRemoved.add(bookTime);
-			}else if (parkNum == 3) {
-				timesT.remove(bookTime);
-				timesThatRemoved.add(bookTime);
+			if(!bookTime.contains(":")) {
+				System.out.println("Wrong time please inter correct time");
+				bookTime = scanner.next();
+			}else {
+				if (parkNum == 1) {
+					timesF.remove(bookTime);
+					timesThatRemoved.add(bookTime);
+				}else if (parkNum == 2) {
+					timesS.remove(bookTime);
+					timesThatRemoved.add(bookTime);
+				}else if (parkNum == 3) {
+					timesT.remove(bookTime);
+					timesThatRemoved.add(bookTime);
+				}
 			}
+			
 			// End ----- Remove a time from ArrayList and add the removed time in another list
 			// End ---- Available Time, Choose a Time
 			for (another1 = 1; another1 > 0;) {
